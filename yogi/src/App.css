@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.yogini {
+  width: 60%;
+}
+
+@keyframes moveImage {
+  0%, 100% {
+    transform: translateY(0); 
+  }
+  50% {
+    transform: translateY(-20px); 
+  }
+}
+
+form {
+  width: 25%;
+  margin: auto;
+  border-radius: 25px;
+  background: #75ddea;
+  box-shadow: inset 35px -35px 51px #57a4ad,
+              inset -35px 35px 51px #93ffff;
+  padding: 20px;            
+}
+
+input {
+  width: 90%;
+  padding: 10px;  
+  margin-top: 8px;
+  border-radius: 20px;
+  font-size: medium;
+  border: none;
+}
+
+h1,p {
+  background: linear-gradient(180deg, #141413, #93ffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h3 {
+  background: linear-gradient(180deg, #f34ec2, #57a4ad);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.solution {
+  width: 70%;
+  margin-left: 14%;
+  margin-top: 20px;
+  border-radius: 21px;
+  padding: 20px;
+  background: #f6f9f9;
+  box-shadow: inset 28px 28px 56px #bbbdbd,
+              inset -28px -28px 56px #ffffff;
+}
+
+span {
+  font-size: larger;
+  font-weight: 700;
+  color: green;
+}
+
+h2 {
+  color: green;
+}
