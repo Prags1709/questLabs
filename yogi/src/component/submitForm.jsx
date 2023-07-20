@@ -4,6 +4,7 @@ import EmojiObjectsIcon from '@mui/icons-material/EmojiObjects';
 import axios from "axios";
 import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
+import { Speech } from "./speech";
 
 
 export const SubmitForm = () => {
@@ -68,7 +69,7 @@ export const SubmitForm = () => {
                     color: "rgb(216, 216, 16)",
                     marginBottom: "-4px"
                 }} />
-                <h4>{result}</h4>
+                <Speech textFomate = {result} />
             </div>}
             <div>
                 <Backdrop
@@ -78,7 +79,7 @@ export const SubmitForm = () => {
                     <CircularProgress color="inherit" />
                 </Backdrop>
             </div>
-            <p>I use <a href="https://openai.com/policies/api-data-usage-policies">OpenAI</a>to generate your meditation.</p>
+            <p>I use <a href="https://openai.com/policies/api-data-usage-policies">OpenAI</a> to generate your meditation.</p>
             <p>Made with ❤️ by Prags</p>
         </div>
     )
