@@ -78,6 +78,8 @@ export const SubmitForm = () => {
                     <CircularProgress color="inherit" />
                 </Backdrop>
             </div>
+            <p>I use <a href="https://openai.com/policies/api-data-usage-policies">OpenAI</a>to generate your meditation.</p>
+            <p>Made with ❤️ by Prags</p>
         </div>
     )
 }
