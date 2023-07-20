@@ -32,7 +32,7 @@ export const SubmitForm = () => {
         }else{
             setOpen(true);
 
-            let url = "http://localhost:4500/data";
+            let url = "https://joyous-sunbonnet-mite.cyclic.app/data";
 
             axios.post(url, {
                 usecase: "GPT_MEDITATION_CREATOR",
